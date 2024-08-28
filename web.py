@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import time
 
-with open('Random Forest.pkl', 'rb') as f:
+with open('./Random Forest.pkl', 'rb') as f:
     model = pickle.load(f)
 
 def stream_data(des):
